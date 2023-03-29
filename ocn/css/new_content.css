@@ -1,0 +1,54 @@
+@charset "uft-8";
+.newc{
+    margin-top: 35px;
+    width: 1200px;
+    height: 355px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.newc>p{
+    width: inherit;
+    height: 37px;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+}
+
+.newc>p>span{
+    width: 100px;
+    height: inherit;
+    background-image: url(../contents/more.png);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.newc>ol{
+    width: 1200px;
+    height: 318px;
+    padding: 24px 19px;
+    border: 1px solid #ccc;
+}
+
+.newc>ol>li{
+    width: 200px;
+    height: 250px;
+    float: left;
+    margin: 15px ;
+    border: 1px solid #ccc;
+}
+
+
+/*
+New Contents 및 더보기 높이 사이즈는 37px 입니다. 폰트 사이즈 20px로 굵은체(Notosanskr 700)을 사용하시길 바랍니다.
+2. 더보기 아이콘은 이미지 입니다. (contents/more.png - 100 * 37 )
+3. 전체 사이즈는 (1200 * 361) 이며 상,하 여백은 (34px) 입니다. 좌,우 여백은(39px) 외각선 1px에 #ccc 코드 이며, 둥근모서리 5px를 사용하
+시길 바랍니다.
+4. 썸네일 크기는 (200*250px) 이며 가로 5EA 형식으로 제작 합니다. 썸네일 하단에 썸네일 제목이 들어가야 합니다. 외각선 1px #ccc;
+썸네일 각각에 들어가는 이미지는 제공된 이미지를 이용하여, 모두 제작하며 마우스 오버시 link에 대한 설명도 나옵니다. 또한
+마우스 오버시 컬러 이미지, 그외에는 흑백 이미지로 출력 되도록 합니다. 이미지 : contents 디렉토리
+순서는 다음과 같습니다. (흑백 : mini1-black.png~mini5-black.png 컬러 : mini1-color.png~mini1-color.png)
+게임덱후들(유민상,김준현), 44층 지하던전, 켠왕켜놩(켠김에왕까지-허준), 핑거게임(신동엽, 장도연), 플레이어2 (이수근,이진호, 이용진,
+이이경, 이진호, 정혁, 황치열, 김동현) – 폰트 크기는 12px 입니다.
+*/

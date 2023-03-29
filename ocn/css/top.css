@@ -1,0 +1,29 @@
+@charset "uft-8";
+.hdcss{
+    height: 35px;  
+    position: relative;
+}
+
+.hdcss> .top{ 
+    width: 1200px;
+    height: inherit; 
+    margin: 0 auto;
+}
+
+.top>div{
+    width: 80px; height: inherit;
+    background-image: url("../images/tving_logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    cursor: pointer;
+}
+.top>ul{float: right;}
+.top>ul>li{
+    float: left;
+    font-size: 14px;
+    margin-left: 10px;
+    line-height: 35px;
+    cursor: pointer;
+}
+.top>ul>li:nth-of-type(1){margin-left: 0;}

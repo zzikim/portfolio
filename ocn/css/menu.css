@@ -1,0 +1,55 @@
+@charset "uft-8";
+.ncss{ 
+    height: 120px;
+}
+
+.ncss > .menus {
+    width: 1200px;
+    height: inherit;
+    margin: 0 auto;
+    position: relative;
+}
+
+.ncss > .menus >  img {
+    width: 180px;
+    height: 55px;
+    object-fit: contain;
+    position: absolute;
+    left: 50%;
+    margin: 10px 0 25px -80px;
+    cursor: pointer;
+}
+.mn{width: inherit; height: 30px; position: absolute; bottom: 0;}
+
+.mn>li{
+    width: 240px;
+    height: inherit;
+    font-size: 16px;
+    font-weight: 500;   
+    float: left;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.mn>li>ol{
+    width: inherit;
+    height: auto;
+    position: absolute;
+    top: 30px;
+    display: none;
+    background-color: #ffffff80;
+    z-index: 1;
+    
+}
+
+.mn>li>ol>li{
+    font-size: 14px;
+    font-weight: 400;   
+    width: inherit;
+    height: 30px;
+    line-height: 30px; 
+}
+
+.mn>li>ol>li:hover{ background-color: black; color: white; }

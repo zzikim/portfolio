@@ -1,0 +1,38 @@
+@charset "uft-8";
+.week{
+    width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+    padding: 10px 0
+}
+
+.wek>li{
+    width: 210px;
+    height: 130px;
+    
+    float: left;
+    position: relative;
+    background-image: url("../contents/b13_1.png");
+}
+.wek>li:nth-of-type(1){
+    width: 150px;
+    height: 130px;
+    background-color: blue;
+    background-image: url("../contents/week_part.png");
+}
+.wek>li>div{
+    position: absolute;
+    bottom: 0;
+    width: 210px;
+    height: 30px;
+    background-color: #000000;
+    color: #fce207;
+    text-align: center;
+    font-size: 12px;
+    line-height: 30px;
+    display: none;
+}
+.wek>li:hover>div{
+    display: block;
+}
+

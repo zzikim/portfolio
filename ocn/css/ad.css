@@ -1,0 +1,7 @@
+@charset "uft-8";
+.ads{
+    width: 1200px;
+    height: 120px;
+    margin: 20px auto 0 auto;
+    background-image: url("../banner/middlebanner.png");
+}
